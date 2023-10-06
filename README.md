@@ -1,6 +1,4 @@
 # Kitchen-Test-3D
-TentWorks Programming Test
-
 The focus for this project was decoupled design, SOLID principles, and Game Programming Patterns.
 This allows for low cognitive complexity and high scalability.
 
