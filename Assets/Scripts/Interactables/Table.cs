@@ -41,13 +41,13 @@ public class Table : MonoBehaviour, IInteractable
             heldIngredient = null;
             foodPrepared = false;
         }
+        else if (heldIngredient != null) StartCoroutine(PrepareFood());
         else if (ingredient is Vegetable)
         {
             ingredientInventory.TakeIngredient(ingredientContainer);
             heldIngredient = ingredient;
             StartCoroutine(PrepareFood());
         }
-        else if (heldIngredient != null) StartCoroutine(PrepareFood());
         else Debug.Log("No viable ingredient for table");
     }
 
