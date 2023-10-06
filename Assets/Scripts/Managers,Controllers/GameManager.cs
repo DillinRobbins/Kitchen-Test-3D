@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    private float timer = 60f;
+    private float timer = 180f;
     [SerializeField] TextMeshProUGUI timerText;
     [SerializeField] GameObject endGameUI;
     [SerializeField] GameObject pauseUI;
